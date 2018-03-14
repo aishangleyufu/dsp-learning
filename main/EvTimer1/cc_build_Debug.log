@@ -1,0 +1,31 @@
+----------------------------  EvTimer1.pjt - Debug  ----------------------------
+[DSP281x_DefaultIsr.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -q -as -fr"E:/dsplab281x/main/EvTimer1/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/EvTimer1/Debug.lkf" "DSP281x_DefaultIsr.c"
+
+[DSP281x_GlobalVariableDefs.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -q -as -fr"E:/dsplab281x/main/EvTimer1/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/EvTimer1/Debug.lkf" "DSP281x_GlobalVariableDefs.c"
+
+[DSP281x_GpioF.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -q -as -fr"E:/dsplab281x/main/EvTimer1/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/EvTimer1/Debug.lkf" "DSP281x_GpioF.c"
+
+[DSP281x_PieCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -q -as -fr"E:/dsplab281x/main/EvTimer1/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/EvTimer1/Debug.lkf" "DSP281x_PieCtrl.c"
+
+[DSP281x_PieVect.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -q -as -fr"E:/dsplab281x/main/EvTimer1/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/EvTimer1/Debug.lkf" "DSP281x_PieVect.c"
+
+[DSP281x_SysCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -q -as -fr"E:/dsplab281x/main/EvTimer1/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/EvTimer1/Debug.lkf" "DSP281x_SysCtrl.c"
+
+[EvTimer1.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -q -as -fr"E:/dsplab281x/main/EvTimer1/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "EvTimer1.c"
+"EvTimer1.c", line 404: warning: last line of file ends without a newline
+
+[Linking...] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+undefined                        first referenced
+ symbol                              in file
+---------                        ----------------
+_ConfigCpuTimer                  E:\dsplab281x\main\EvTimer1\Debug\EvTimer1.obj
+_InitCpuTimers                   E:\dsplab281x\main\EvTimer1\Debug\EvTimer1.obj
+_CpuTimer0                       E:\dsplab281x\main\EvTimer1\Debug\EvTimer1.obj
+>>   error: symbol referencing errors - './Debug/EvTimer1.out' not built
+
+>> Compilation failure
+
+Build Complete,
+  2 Errors, 1 Warnings, 0 Remarks.

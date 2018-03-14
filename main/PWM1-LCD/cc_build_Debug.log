@@ -1,0 +1,65 @@
+----------------------------  PWM1-LCD.pjt - Debug  ----------------------------
+[DSP281x_DefaultIsr.c] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -g -q -as -fr"F:/jacky281x/main/PWM1-LCD/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/PWM1-LCD/Debug.lkf" "DSP281x_DefaultIsr.c"
+
+[DSP281x_GlobalVariableDefs.c] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -g -q -as -fr"F:/jacky281x/main/PWM1-LCD/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/PWM1-LCD/Debug.lkf" "DSP281x_GlobalVariableDefs.c"
+
+[DSP281x_PieCtrl.c] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -g -q -as -fr"F:/jacky281x/main/PWM1-LCD/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/PWM1-LCD/Debug.lkf" "DSP281x_PieCtrl.c"
+
+[DSP281x_PieVect.c] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -g -q -as -fr"F:/jacky281x/main/PWM1-LCD/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/PWM1-LCD/Debug.lkf" "DSP281x_PieVect.c"
+
+[DSP281x_SysCtrl.c] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -g -q -as -fr"F:/jacky281x/main/PWM1-LCD/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/PWM1-LCD/Debug.lkf" "DSP281x_SysCtrl.c"
+
+[DSP281x_XIntrupt.c] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -g -q -as -fr"F:/jacky281x/main/PWM1-LCD/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/PWM1-LCD/Debug.lkf" "DSP281x_XIntrupt.c"
+
+[PWM1-LCD.c] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -g -q -as -fr"F:/jacky281x/main/PWM1-LCD/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "PWM1-LCD.c"
+
+Warning: The project has no cmd file while the Text Linker is selected
+[Linking...] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+>> warning: creating output section FlashRegsFile without SECTIONS specification
+>> warning: creating output section CsmPwlFile without SECTIONS specification
+>> warning: creating output section CpuTimer0RegsFile without SECTIONS
+            specification
+>> warning: creating output section ScibRegsFile without SECTIONS specification
+>> warning: creating output section SciaRegsFile without SECTIONS specification
+>> warning: creating output section CsmRegsFile without SECTIONS specification
+>> warning: creating output section SpiaRegsFile without SECTIONS specification
+>> warning: creating output section XIntruptRegsFile without SECTIONS
+            specification
+>> warning: creating output section PieCtrlRegsFile without SECTIONS
+            specification
+>> warning: creating output section AdcRegsFile without SECTIONS specification
+>> warning: creating output section SysCtrlRegsFile without SECTIONS
+            specification
+>> warning: creating output section XintfRegsFile without SECTIONS specification
+>> warning: creating output section GpioMuxRegsFile without SECTIONS
+            specification
+>> warning: creating output section GpioDataRegsFile without SECTIONS
+            specification
+>> warning: creating output section McbspaRegsFile without SECTIONS
+            specification
+>> warning: creating output section EvbRegsFile without SECTIONS specification
+>> warning: creating output section EvaRegsFile without SECTIONS specification
+>> warning: creating output section ECanaRegsFile without SECTIONS specification
+>> warning: creating output section ECanaLAMRegsFile without SECTIONS
+            specification
+>> warning: creating output section ECanaMOTSRegsFile without SECTIONS
+            specification
+>> warning: creating output section ECanaMOTORegsFile without SECTIONS
+            specification
+>> warning: creating output section DevEmuRegsFile without SECTIONS
+            specification
+>> warning: creating output section PieVectTableFile without SECTIONS
+            specification
+>> warning: creating output section ECanaMboxesFile without SECTIONS
+            specification
+>> warning: creating output section .econst without SECTIONS specification
+>> warning: creating output section ramfuncs without SECTIONS specification
+>> warning: creating output section .reset without SECTIONS specification
+>> warning: creating output section .ebss without SECTIONS specification
+>> warning: creating .stack section with default size of 400 (hex) words.
+   Use
+            -stack option to change the default size.
+
+Build Complete,
+  0 Errors, 30 Warnings, 0 Remarks.

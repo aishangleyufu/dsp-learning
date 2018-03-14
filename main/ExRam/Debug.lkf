@@ -1,0 +1,7 @@
+-z -c -m"./Debug/ExRam.map" -o"./Debug/ExRam.out" -w -x -i"C:/CCStudio_v3.3/C2000/xdais/lib" -i"C:/CCStudio_v3.3/bios_5_31_02/packages/ti/bios/lib" -i"C:/CCStudio_v3.3/bios_5_31_02/packages/ti/rtdx/lib/c2000" -i"C:/CCStudio_v3.3/C2000/cgtools/lib"
+"E:\dsplab281x\cmd\DSP281x_Headers_nonBIOS.cmd"
+"E:\dsplab281x\cmd\EzDSP_RAM_lnk.cmd"
+"E:\dsplab281x\main\ExRam\Debug\DSP281x_GlobalVariableDefs.obj"
+"E:\dsplab281x\main\ExRam\Debug\DSP281x_SysCtrl.obj"
+"E:\dsplab281x\main\ExRam\Debug\ExRam.obj"
+"E:\dsplab281x\lib\rts2800_ml.lib"

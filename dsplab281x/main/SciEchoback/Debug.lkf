@@ -1,0 +1,6 @@
+-z -c -m"./Debug/SciEchoBack.map" -o"./Debug/SciEchoBack.out" -stack0x400 -w -x -i"../../DSP281x_headers/include" -i"C:/CCStudio_v3.1/C2000/xdais/lib" -i"C:/CCStudio_v3.1/C2000/rtdx/lib" -i"C:/CCStudio_v3.1/c2000/bios/lib" -i"C:/CCStudio_v3.1/C2000/cgtools/lib" -l"rts2800_ml.lib"
+"F:\jacky281x\cmd\DSP281x_Headers_nonBIOS.cmd"
+"F:\jacky281x\cmd\EzDSP_RAM_lnk.cmd"
+"F:\jacky281x\main\SciEchoback\Debug\DSP281x_GlobalVariableDefs.obj"
+"F:\jacky281x\main\SciEchoback\Debug\DSP281x_SysCtrl.obj"
+"F:\jacky281x\main\SciEchoback\Debug\SciEchoback.obj"

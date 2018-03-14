@@ -1,0 +1,15 @@
+------------------------------  led.pjt - Debug  ------------------------------
+[DSP281x_GlobalVariableDefs.c] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -g -q -fr"F:/dsplab281x/main/led/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/led/Debug.lkf" "DSP281x_GlobalVariableDefs.c"
+
+[DSP281x_SysCtrl.c] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -g -q -fr"F:/dsplab281x/main/led/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/led/Debug.lkf" "DSP281x_SysCtrl.c"
+
+[led.c] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -g -q -fr"F:/dsplab281x/main/led/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "led.c"
+
+[Linking...] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+>> warning: creating .stack section with default size of 400 (hex) words.
+   Use
+            -stack option to change the default size.
+
+Build Complete,
+  0 Errors, 1 Warnings, 0 Remarks.

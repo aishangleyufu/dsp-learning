@@ -1,0 +1,8 @@
+------------------------------  mpy.pjt - Debug  ------------------------------
+[mpy.asm] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -g -as -fr"E:/f2812/luhuifen/shiyanasm/mpy/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "mpy.asm"
+
+[Linking...] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

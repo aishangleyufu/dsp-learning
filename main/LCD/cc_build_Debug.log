@@ -1,0 +1,25 @@
+------------------------------  LCD.pjt - Debug  ------------------------------
+[DSP281x_GlobalVariableDefs.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -q -as -fr"E:/dsplab281x/main/LCD/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/LCD/Debug.lkf" "DSP281x_GlobalVariableDefs.c"
+
+[DSP281x_SysCtrl.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -q -as -fr"E:/dsplab281x/main/LCD/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../main/LCD/Debug.lkf" "DSP281x_SysCtrl.c"
+
+[LCD.c] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -g -q -as -fr"E:/dsplab281x/main/LCD/Debug" -i"../../headers" -i"../headers" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "LCD.c"
+"LCD.c", line 404: warning: last line of file ends without a newline
+
+[Linking...] "C:\CCStudio_v3.3\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+undefined                        first referenced
+ symbol                              in file
+---------                        ----------------
+_InitPieVectTable                E:\dsplab281x\main\LCD\Debug\LCD.obj
+_InitPieCtrl                     E:\dsplab281x\main\LCD\Debug\LCD.obj
+_ConfigCpuTimer                  E:\dsplab281x\main\LCD\Debug\LCD.obj
+_InitCpuTimers                   E:\dsplab281x\main\LCD\Debug\LCD.obj
+_CpuTimer0                       E:\dsplab281x\main\LCD\Debug\LCD.obj
+>>   error: symbol referencing errors - './Debug/LCD.out' not built
+
+>> Compilation failure
+
+Build Complete,
+  2 Errors, 1 Warnings, 0 Remarks.

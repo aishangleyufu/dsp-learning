@@ -1,0 +1,3 @@
+-z -c -m"./Debug/asm2.map" -o"./Debug/asm2.out" -w -x -i"C:/CCStudio_v3.1/C2000/xdais/lib" -i"C:/CCStudio_v3.1/C2000/rtdx/lib" -i"C:/CCStudio_v3.1/c2000/bios/lib" -i"C:/CCStudio_v3.1/C2000/cgtools/lib"
+"E:\f2812\luhuifen\shiyanasm\asm2\linkasm.cmd"
+"E:\f2812\luhuifen\shiyanasm\asm2\Debug\denNum.obj"

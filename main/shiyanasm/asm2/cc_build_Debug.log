@@ -1,0 +1,8 @@
+------------------------------  asm2.pjt - Debug  ------------------------------
+[denNum.asm] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -g -fr"E:/f2812/luhuifen/shiyanasm/asm2/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "denNum.asm"
+
+[Linking...] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

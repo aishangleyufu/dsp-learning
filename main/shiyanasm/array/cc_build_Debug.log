@@ -1,0 +1,8 @@
+-----------------------------  array.pjt - Debug  -----------------------------
+[array.asm] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -g -fr"E:/f2812/luhuifen/shiyanasm/array/Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"Debug.lkf" "array.asm"
+
+[Linking...] "C:\CCStudio_v3.1\C2000\cgtools\bin\cl2000" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

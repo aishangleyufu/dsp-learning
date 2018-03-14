@@ -1,0 +1,35 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="E:\f2812\luhuifen\shiyanasm\array\"
+ProjectType=Executable
+CPUFamily=TMS320C28XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="array.asm"
+Source="linkasm.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -fr"$(Proj_dir)\Debug" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28
+
+["Compiler" Settings: "Release"]
+Options=-o3 -fr"$(Proj_dir)\Release" -d"LARGE_MODEL" -ml -v28
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\array.map" -o".\Debug\array.out" -w -x
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\array.map" -o".\Release\array.out" -w -x
+
+["linkasm.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["linkasm.cmd" Settings: "Release"]
+LinkOrder=1
+
